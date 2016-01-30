@@ -1,0 +1,5 @@
+//: Queue
+
+public struct Queue {
+    
+}
