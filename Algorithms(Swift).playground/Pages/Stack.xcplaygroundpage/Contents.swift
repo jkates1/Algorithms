@@ -1,4 +1,4 @@
-//: Stack (LIFO)
+//: Stack Wrapper (LIFO)
 
 public struct Stack<T> {
     
@@ -35,7 +35,3 @@ stack.push("Jerry")
 stack.pop()
 stack.count
 stack.peek()
-
-
-
-

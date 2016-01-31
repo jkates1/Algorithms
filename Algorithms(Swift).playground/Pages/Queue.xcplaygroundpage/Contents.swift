@@ -1,5 +1,5 @@
 //: Queue
-// Generic Queue Example
+// Generic Queue Wrapper Example
 public struct Queue<T> {
     
     private var array = [T]()
@@ -15,12 +15,14 @@ public struct Queue<T> {
     public mutating func enqueue(element: T) {
         array.insert(element, atIndex: 0)
     }
+    
     public mutating func dequeue() -> T? {
         guard !isEmpty else {
         return nil
         }
         return array.removeFirst()
     }
+    
     public func peek() -> T? {
         guard !isEmpty else {
             return nil
