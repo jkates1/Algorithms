@@ -51,3 +51,33 @@ var myStackGenerator = StackGenerator(stack: stack)
 while let value = myStackGenerator.next() {
     print("Got \(value)")
 }
+
+struct RawStack<T> {
+    
+    var currentPosition: Int = 0
+    private var rawStack = [T]()
+    
+    mutating func push(element: T) {
+       rawStack.insert(element, atIndex: currentPosition++)
+    }
+    
+    mutating func pop() -> T? {
+        
+        var returnElement: T?
+        
+        guard currentPosition > 0 else {
+            return nil
+        }
+        returnElement = rawStack[currentPosition - 1]
+        rawStack.removeAtIndex(currentPosition - 1)
+        currentPosition--
+        return returnElement
+    }
+}
+
+var testStack = RawStack<String>()
+
+testStack.push("Jess2")
+print(testStack.currentPosition)
+testStack.pop()
+
