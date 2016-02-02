@@ -27,6 +27,8 @@ public struct Stack<T> {
         return array.last
     }
     
+
+    
 }
 
 var stack = Stack(array: ["String1", "String2"])
@@ -35,3 +37,17 @@ stack.push("Jerry")
 stack.pop()
 stack.count
 stack.peek()
+
+struct StackGenerator<T>: GeneratorType {
+    var stack: Stack<T>
+    
+    mutating func next() -> T? {
+        return stack.pop()
+    }
+}
+
+var myStackGenerator = StackGenerator(stack: stack)
+
+while let value = myStackGenerator.next() {
+    print("Got \(value)")
+}
