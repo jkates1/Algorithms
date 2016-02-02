@@ -51,7 +51,7 @@ var myStackGenerator = StackGenerator(stack: stack)
 while let value = myStackGenerator.next() {
     print("Got \(value)")
 }
-
+// Stack utilizing less class methods
 struct RawStack<T> {
     
     var currentPosition: Int = 0
