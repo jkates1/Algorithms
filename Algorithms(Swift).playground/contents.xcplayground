@@ -3,7 +3,5 @@
     <pages>
         <page name='Stack'/>
         <page name='Queue'/>
-        <page name='UnionFind'/>
-        <page name='ShellSort'/>
     </pages>
 </playground>

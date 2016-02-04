@@ -8,7 +8,9 @@ public struct UF {
     
     init(n: Int) {
         size = n
-        id = Array(1...n)
+      //  id = Array(1...n).shuffle()
+        
+        
      }
     
     func count() -> Int {
@@ -38,8 +40,38 @@ public struct UF {
     }
 }
 
-let thisUnion = UF(n: 100)
+var thisUnion = UF(n: 100)
 
+for var i = 0; i < thisUnion.id.count - 2 ; i++ {
+    
+    var p = thisUnion.id[i++]
+    var q = thisUnion.id[i]
+        if thisUnion.connected(p, q: q) {
+            thisUnion.union(p, q: q)
+            print("\(p) \(q)")
+        }
 
+}
 
+extension CollectionType {
+    /// Return a copy of `self` with its elements shuffled
+    func shuffle() -> [Generator.Element] {
+        var list = Array(self)
+        list.shuffleInPlace()
+        return list
+    }
+}
 
+extension MutableCollectionType where Index == Int {
+    /// Shuffle the elements of `self` in-place.
+    mutating func shuffleInPlace() {
+        // empty and single-element collections don't shuffle
+        if count < 2 { return }
+        
+        for i in 0..<count - 1 {
+            let j = Int(arc4random_uniform(UInt32(count - i))) + i
+            guard i != j else { continue }
+            swap(&self[i], &self[j])
+        }
+    }
+}

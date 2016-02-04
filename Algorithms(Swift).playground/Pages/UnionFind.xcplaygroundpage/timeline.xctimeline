@@ -3,8 +3,53 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=743&amp;EndingColumnNumber=3&amp;EndingLineNumber=45&amp;StartingColumnNumber=1&amp;StartingLineNumber=45&amp;Timestamp=476138447.586854"
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=1666&amp;EndingColumnNumber=3&amp;EndingLineNumber=44&amp;StartingColumnNumber=1&amp;StartingLineNumber=44&amp;Timestamp=476292684.262364"
          selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=1666&amp;EndingColumnNumber=10&amp;EndingLineNumber=44&amp;StartingColumnNumber=9&amp;StartingLineNumber=44&amp;Timestamp=476292684.262949"
+         selectedRepresentationIndex = "2"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=1666&amp;EndingColumnNumber=10&amp;EndingLineNumber=44&amp;StartingColumnNumber=9&amp;StartingLineNumber=44&amp;Timestamp=476292684.263381"
+         selectedRepresentationIndex = "2"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=1006&amp;EndingColumnNumber=10&amp;EndingLineNumber=44&amp;StartingColumnNumber=9&amp;StartingLineNumber=44&amp;Timestamp=476292684.263625"
+         selectedRepresentationIndex = "2"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=1006&amp;EndingColumnNumber=10&amp;EndingLineNumber=44&amp;StartingColumnNumber=9&amp;StartingLineNumber=44&amp;Timestamp=476292684.263852"
+         selectedRepresentationIndex = "2"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=1006&amp;EndingColumnNumber=10&amp;EndingLineNumber=44&amp;StartingColumnNumber=9&amp;StartingLineNumber=44&amp;Timestamp=476292684.264077"
+         selectedRepresentationIndex = "2"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=966&amp;EndingColumnNumber=10&amp;EndingLineNumber=50&amp;StartingColumnNumber=9&amp;StartingLineNumber=46&amp;Timestamp=476292684.264305"
+         selectedRepresentationIndex = "2"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=9&amp;CharacterRangeLoc=747&amp;EndingColumnNumber=14&amp;EndingLineNumber=42&amp;StartingColumnNumber=5&amp;StartingLineNumber=42&amp;Timestamp=476292684.264441"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=5&amp;CharacterRangeLoc=434&amp;EndingColumnNumber=21&amp;EndingLineNumber=25&amp;StartingColumnNumber=16&amp;StartingLineNumber=25&amp;Timestamp=476292684.264565"
+         selectedRepresentationIndex = "2"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=18&amp;CharacterRangeLoc=358&amp;EndingColumnNumber=34&amp;EndingLineNumber=21&amp;StartingColumnNumber=16&amp;StartingLineNumber=21&amp;Timestamp=476292684.264673"
+         selectedRepresentationIndex = "1"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
    </TimelineItems>
