@@ -53,6 +53,14 @@ for var i = 0; i < thisUnion.id.count - 2 ; i++ {
 
 }
 
+
+
+
+
+
+
+/*********Helper Methods**************/
+
 extension CollectionType {
     /// Return a copy of `self` with its elements shuffled
     func shuffle() -> [Generator.Element] {
