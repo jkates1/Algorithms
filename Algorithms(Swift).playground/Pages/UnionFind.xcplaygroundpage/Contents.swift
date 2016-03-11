@@ -44,7 +44,7 @@ var thisUnion = UF(n: 100)
 
 for var i = 0; i < thisUnion.id.count - 2 ; i++ {
     
-    var p = thisUnion.id[i++]
+    var p = thisUnion.id[i]
     var q = thisUnion.id[i]
         if thisUnion.connected(p, q: q) {
             thisUnion.union(p, q: q)
