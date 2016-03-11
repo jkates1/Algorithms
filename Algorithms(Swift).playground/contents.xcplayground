@@ -5,6 +5,6 @@
         <page name='Queue'/>
         <page name='UnionFind'/>
         <page name='ShellSort'/>
-        <page name='Miscellaneous'/>
+        <page name='InsertionSort'/>
     </pages>
 </playground>
