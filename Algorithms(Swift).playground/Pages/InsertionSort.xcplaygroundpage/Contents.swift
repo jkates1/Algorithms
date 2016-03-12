@@ -23,4 +23,4 @@ func insertionSort(numberList: [Int]) -> [Int] {
 
 let unsortedArray = [2,28,1,2398,23,182,32,221]
 
-insertionSort(unsortedArray)
+

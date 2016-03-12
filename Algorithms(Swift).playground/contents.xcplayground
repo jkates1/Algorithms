@@ -6,5 +6,6 @@
         <page name='UnionFind'/>
         <page name='ShellSort'/>
         <page name='InsertionSort'/>
+        <page name='BubbleSort'/>
     </pages>
 </playground>
