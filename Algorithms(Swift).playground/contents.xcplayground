@@ -7,5 +7,6 @@
         <page name='ShellSort'/>
         <page name='InsertionSort'/>
         <page name='BubbleSort'/>
+        <page name='SelectionSort'/>
     </pages>
 </playground>

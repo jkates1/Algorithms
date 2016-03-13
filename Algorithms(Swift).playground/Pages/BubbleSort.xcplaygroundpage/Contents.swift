@@ -7,7 +7,7 @@ func bubbleSort(numberList: [Int]) -> [Int] {
     //Mutable copy
     var output = numberList
     
-    for (primaryIndex, elementValue) in numberList.enumerate() {
+    for (primaryIndex, elementValue) in output.enumerate() {
         
         let passes = (output.count - 1) - primaryIndex
         
