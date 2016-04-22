@@ -75,9 +75,16 @@ struct RawStack<T> {
     }
 }
 
-var testStack = RawStack<String>()
+var testStringStack = RawStack<String>()
 
-testStack.push("Jess2")
-print(testStack.currentPosition)
-testStack.pop()
+testStringStack.push("Jess2")
+print(testStringStack.currentPosition)
+testStringStack.pop()
 
+var testIntStack = RawStack<Int>()
+
+testIntStack.push(2)
+testIntStack.push(5)
+testIntStack.push(55)
+testIntStack.pop()
+testIntStack.currentPosition

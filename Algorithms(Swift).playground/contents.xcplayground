@@ -8,5 +8,6 @@
         <page name='InsertionSort'/>
         <page name='BubbleSort'/>
         <page name='SelectionSort'/>
+        <page name='LinkedListStack'/>
     </pages>
 </playground>

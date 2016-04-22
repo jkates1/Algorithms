@@ -1,6 +1,8 @@
-//: [Previous](@previous)
 
 import Foundation
+
+
+// O(n^2) Time
 
 func bubbleSort(numberList: [Int]) -> [Int] {
     
