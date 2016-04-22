@@ -5,8 +5,8 @@
         <page name='Queue'/>
         <page name='UnionFind'/>
         <page name='ShellSort'/>
-        <page name='InsertionSort'/>
         <page name='BubbleSort'/>
+        <page name='InsertionSort'/>
         <page name='SelectionSort'/>
         <page name='LinkedListStack'/>
     </pages>
